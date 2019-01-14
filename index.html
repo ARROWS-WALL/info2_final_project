@@ -3,14 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>情報基礎２ミニプロジェクト</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.facedetection.min.js"></script>
+    <script type="text/javascript" src="faceAuthentication.js"></script>
     <script src="index.js"></script>
-    <script type="text/javascript" src="https://ipl.sfc.keio.ac.jp/text/info2-2018-9/lib/jquery-3.3.1.min.js"></script>
-    <!-- <link rel="stylesheet" href=index.css> -->
+    <link rel="stylesheet" href=index.css>
+
   </head>
   <h1 id="title">ユーザー認証：ログイン画面</h1>
+
+<body>
   <input type="button" value="カメラ起動" onclick="camera_on();">
   <input type="button" value="カメラ停止" onclick="camera_off();">
   <input type="button" value="作成者に関する情報" onclick="users_info();">
+  <button name="button" class="jsc-change-btn">BUTTON</button>
+
+  <div class="img-container">
+    <img src="mahiro.jpg" id="face-image">
+  </div>
+
 </body>
 
 </html>
