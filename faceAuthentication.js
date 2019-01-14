@@ -29,8 +29,9 @@ FACE.AUTH = {
 	/* faceDetectionで画像にある顔を探す */
 	this.$imagId.faceDetection({
 		complete: function (faces) { //成功時
-				self.setBorderParams(faces);
-		},
+				self.setBorderParams(faces),
+        window.location.href= "self.html";
+    },
 	 error:function (code, message) { //失敗時
 		alert('Error: ' + message);
 	 }
