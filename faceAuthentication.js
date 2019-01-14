@@ -30,7 +30,7 @@ FACE.AUTH = {
 	this.$imagId.faceDetection({
 		complete: function (faces) { //成功時
 				self.setBorderParams(faces),
-        window.location.href= "self.html";
+        window.location.href= "http://web.sfc.keio.ac.jp/~t18818my/info1&2/final/index.html";
     },
 	 error:function (code, message) { //失敗時
 		alert('Error: ' + message);
