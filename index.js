@@ -7,5 +7,5 @@ function camera_off(){
 }
 
 function users_info(){
-  window.location.href= "ここに自己紹介ページを貼る";
+  window.location.href= "self.html";
 }
